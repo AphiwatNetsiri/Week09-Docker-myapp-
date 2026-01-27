@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: dstoolbox-wk08
+Version: 0.1.0
+Summary: Scikit-learn classification experiment with diabetes dataset
+Requires-Python: >=3.8
+Requires-Dist: scikit-learn>=1.0.0
