@@ -3,6 +3,39 @@
 # แก้โค้ดหน้าขาว : D:\wk08-main\dstoolbox-wk08\.venv\html\view-source_https___wichit2s.github.io__static_courses_dstoolbox_slides_wk08.html
 A modern web project for Data Science Toolbox Week 08.
 
+
+# WK08 fix
+
+[[View Slides](html/slides_wk08.html)](https://AphiwatNetsiri/dstoolbox-wk08/html/slides_wk08.html)
+
+## PyCaret Model Comparison Results
+
+### Model Performance Summary
+
+| Model                           | Accuracy | AUC    | Recall | Precision | F1     | Kappa  | MCC    | TT (Sec) |
+| ------------------------------- | -------- | ------ | ------ | --------- | ------ | ------ | ------ | -------- |
+| Logistic Regression             | 0.7689   | 0.8047 | 0.5602 | 0.7208    | 0.6279 | 0.4641 | 0.4736 | 0.488    |
+| Ridge Classifier                | 0.7670   | 0.8060 | 0.5497 | 0.7235    | 0.6221 | 0.4581 | 0.4690 | 0.006    |
+| Linear Discriminant Analysis    | 0.7670   | 0.8055 | 0.5550 | 0.7202    | 0.6243 | 0.4594 | 0.4695 | 0.007    |
+| Random Forest Classifier        | 0.7485   | 0.7911 | 0.5284 | 0.6811    | 0.5924 | 0.4150 | 0.4238 | 0.038    |
+| Naive Bayes                     | 0.7427   | 0.7955 | 0.5702 | 0.6543    | 0.6043 | 0.4156 | 0.4215 | 0.007    |
+| Gradient Boosting Classifier    | 0.7373   | 0.7914 | 0.5550 | 0.6445    | 0.5931 | 0.4013 | 0.4059 | 0.028    |
+| Ada Boost Classifier            | 0.7372   | 0.7799 | 0.5275 | 0.6585    | 0.5796 | 0.3926 | 0.4017 | 0.020    |
+| Extra Trees Classifier          | 0.7299   | 0.7788 | 0.4965 | 0.6516    | 0.5596 | 0.3706 | 0.3802 | 0.034    |
+| Quadratic Discriminant Analysis | 0.7282   | 0.7894 | 0.5281 | 0.6558    | 0.5736 | 0.3785 | 0.3910 | 0.007    |
+| Light Gradient Boosting Machine | 0.7133   | 0.7645 | 0.5398 | 0.6036    | 0.5650 | 0.3534 | 0.3580 | 0.051    |
+
+### Best Performing Model
+
+**Logistic Regression** achieved the highest accuracy at **76.89%** with an excellent AUC score of 0.8047, making it the recommended model for diabetes prediction.
+
+### Dataset
+
+- Diabetes classification dataset from PyCaret
+- 768 samples with 9 features
+- Binary classification task
+
+
 ## Project Structure
 
 ```
@@ -61,8 +94,8 @@ MIT License - Feel free to use this project as a starter template.
   - เพิ่ม JS fallback ถ้าไม่มีสไลด์ไหน active ให้โชว์สไลด์แรก
 
 เปิดดูสไลด์ผ่าน GitHub Pages ได้ (แก้ลิงก์เป็น repo ของคุณ):
-- `https://<username>.github.io/<repo>/wk08.html`
-- `https://<username>.github.io/<repo>/html/slides_wk08.html`
+- `https://AphiwatNetsiri/dstoolbox-wk08/html/slides_wk08.html`
+- `https://AphiwatNetsiri/dstoolbox-wk08/html/slides_wk08.html`
 
 ## PyCaret Model Comparison Results
 
